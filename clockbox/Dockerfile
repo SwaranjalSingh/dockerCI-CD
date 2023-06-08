@@ -4,7 +4,7 @@ FROM python:3.11.3-alpine
 
 WORKDIR ./clockbox
 
-COPY requirements.txt requirements.txt
+COPY ./clockbox/requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
