@@ -3,7 +3,7 @@ FROM python:3.11.3-alpine
 #RUN apk add --no-cache curl
 # ENV PYTHONUNBUFFERED=1
 
-WORKDIR ./app
+WORKDIR /app
 
 COPY requirements.txt requirements.txt
 
