@@ -2,7 +2,7 @@ FROM python:3.11.3-alpine
 
 #RUN apk add --no-cache curl
 
-WORKDIR ./clockbox
+WORKDIR ./
 
 COPY ./clockbox/requirements.txt requirements.txt
 
