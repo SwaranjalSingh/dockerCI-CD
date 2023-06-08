@@ -3,13 +3,13 @@ FROM python:3.11.3-alpine
 #RUN apk add --no-cache curl
 ENV PYTHONUNBUFFERED=1
 
-WORKDIR ./clockbox
+WORKDIR ./
 
 COPY ./clockbox/requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-COPY . ./
+COPY . .
 
 EXPOSE 8000
 
