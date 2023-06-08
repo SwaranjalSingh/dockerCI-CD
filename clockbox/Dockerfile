@@ -3,7 +3,7 @@ FROM python:3.11.3-alpine
 #RUN apk add --no-cache curl
 ENV PYTHONUNBUFFERED=1
 
-WORKDIR ./app1
+WORKDIR ./clockbox/app1
 
 COPY /requirements.txt /app1
 
